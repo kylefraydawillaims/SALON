@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+h6{
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('brick.jpg');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    
+    
+}
+.down>div{
+    margin-top: 40px;
+}
+.kyle{
+    font-size: 100px;
+    
+}
+.salon{
+    font-size: 50px;
+    background-color: black;
+    color: white;
+}
+.street{
+    font-size: 40px;
+    word-spacing: 10px;
+    
+}
+.down1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.msg{
+    font: 9px;
+    text-overflow: cover;
+}
+.covid{
+    font-size: 40px;
+}
+.but{
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+}
+.lin{
+    font-size: 17px;
+}
+.down2{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.down3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.butt{
+    background-color: orange;
+    width: 200px;
+    height: 40px;
+    color: white;
+    border-color: orange;
+}
+.butt>a{
+    color: white;
+}
+.call{
+    font-size: 25px;
+}
+.or{
+    font-size: 25px;
+}
+.first{
+    background-color: orange;
+    width: 100%;
+    height: 30px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 120px;
+}
+.dwn1{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    align-items: center;
+    gap: 10px;
+    
+}
+.dwn1>div{
+    text-align: center;
+}
+.nd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+
+}
+table{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+.down8{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.dwn8{
+    margin-right: 120px;
+}
+.finish{
+    background-color: orange;
+    border: 2px solid orange;
+    height: 50px;
+    width: 200px;
+}
+.online{
+    color: white;
+    font-size: 20px;
+}
+.tb{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 182, 182);
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: baseline;
+      background-color: orange;
+    }
+    .down{
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        height: auto;
+        
+    }
+    .kyle{
+        font-size: 32px;
+    }
+    .salon{
+        font-size: 16px;
+    }
+    .street{
+        font-size: 16px;
+        word-spacing: 7px;
+        color:white ;
+        background-color: black;
+    }
+    .down1{
+        display: flex;
+        flex-direction: column;
+    }
+    .down2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .down3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .kyle9{
+        width: 400px;
+        height: auto;
+    }
+    .dwn1{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+    }
+    .nd{
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        height: auto;
+    }
+    .ta{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,auto);
+    }
+    .down8{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .covid{
+        font-size: 32px;
+    }
+  }
+  .head{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      background-color: black;
+  }
+  .midd{
+      color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      background-image: url(mount.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .belt{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  .hd{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  em{
+      background-color: black;
+      color: white;
+  }
+  #email{
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      background-color:  rgb(255, 208, 0);
+      width: 200px;
+  }
+  .bod{
+      background-color:  rgb(255, 208, 0);
+  }
+  button{
+      background-color: rgb(255, 208, 0);
+      width: 200px;
+      height: 50px;
+      
+      border-color: white;
+      color: white;
+      border: 2px solid white;
+      font-size: 19px;
+      word-spacing: 1px;
+  }
+  label{
+      color: white;
+  }
+  strong{
+      color: black;
+      font-size: 27px;
+  }
+  .please{
+      text-align: center;
+  }
